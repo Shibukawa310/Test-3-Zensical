@@ -1,4 +1,8 @@
 [project]
 site_name = "DX Test"
 # Remplace par ton vrai nom d'utilisateur et le nom de ton dépôt
-site_url = "https://Shibukawa310.github.io/Test-3-Zensical/"
+site_url = "https://Shibukawa310.github.io/test_zensical/"
+[project.markdown_extensions.pymdownx.snippets]
+# Optionnel mais très recommandé : 
+# Indique à Zensical dans quel dossier chercher tes snippets par défaut
+base_path = "docs/includes"
