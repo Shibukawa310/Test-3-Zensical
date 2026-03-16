@@ -5,4 +5,8 @@ site_url = "https://Shibukawa310.github.io/test_zensical/"
 [project.markdown_extensions.pymdownx.snippets]
 # Optionnel mais très recommandé : 
 # Indique à Zensical dans quel dossier chercher tes snippets par défaut
-base_path = "docs/includes"
+base_path = "includes"
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
