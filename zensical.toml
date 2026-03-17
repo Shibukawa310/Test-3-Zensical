@@ -13,16 +13,16 @@ palette = [
 ]
 
 # Ton menu latéral structuré avec la gestion manuelle des versions
-[project.nav]
-"Home" = "index.md"
-"Domain 1" = [
-    {"Standard 1.1" = "domain1/standard1-1.md"},
-    {"Standard 1.2" = "domain1/standard1-2.md"}
-]
-"Domain 2 (v2.0)" = [
-    {"Standard 2.1" = "domain2/v2.0/standard2-1.md"},
-    {"Standard 2.2" = "domain2/v2.0/standard2-2.md"}
-]
+#[project.nav]
+#"Home" = "index.md"
+#"Domain 1" = [
+#    {"Standard 1.1" = "domain1/standard1-1.md"},
+#    {"Standard 1.2" = "domain1/standard1-2.md"}
+#]
+#"Domain 2 (v2.0)" = [
+#    {"Standard 2.1" = "domain2/v2.0/standard2-1.md"},
+#    {"Standard 2.2" = "domain2/v2.0/standard2-2.md"}
+#]
 
 # --- ACTIVATION DES EXTENSIONS MARKDOWN ---
 [project.markdown_extensions]
