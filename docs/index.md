@@ -11,7 +11,7 @@ hide:
 <br>
 
 <div align="center" style="border: 1px solid #ccc; padding: 12px 24px; border-radius: 8px; max-width: 500px; margin: 0 auto; color: #555; font-size: 1.1em;">
-  🔍 <i>Search Engine (Utilisez la barre de navigation en haut)</i>
+  🔍 <i> Welcome to our standardization journey </i>
 </div>
 
 <br>
