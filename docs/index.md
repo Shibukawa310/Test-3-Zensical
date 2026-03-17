@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
 
 <div align="center">
   <img src="assets/decade-x-logo.png" alt="DECADE-X Logo" width="350" />
