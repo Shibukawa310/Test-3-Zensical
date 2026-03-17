@@ -39,6 +39,8 @@ check_paths = true
 auto_append_base_path = true
 process_jinja = true
 
+[project.markdown_extensions.pymdownx.substitutions]
+
 [project.markdown_extensions.pymdownx.superfences]
 # Active les diagrammes Mermaid
 custom_fences = [
