@@ -35,6 +35,9 @@ pymdownx.details = {}
 [project.markdown_extensions.pymdownx.snippets]
 # Demande à Zensical d'aller chercher les snippets dans le dossier "includes" (à la racine)
 base_path = "includes"
+# Cette ligne est CRUCIALE pour que le {{ }} fonctionne dans un snippet
+check_paths = true
+process_jinja = true
 
 [project.markdown_extensions.pymdownx.superfences]
 # Active les diagrammes Mermaid
