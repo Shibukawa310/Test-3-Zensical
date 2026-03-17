@@ -1,12 +1,43 @@
 [project]
-site_name = "DX Test"
-# Remplace par ton vrai nom d'utilisateur et le nom de ton dépôt
-site_url = "https://Shibukawa310.github.io/test_zensical/"
+site_name = "DECADE-X Standards Library"
+# Remplace par ton vrai lien GitHub Pages
+site_url = "https://TON_UTILISATEUR.github.io/TON_DEPOT/" 
+extra_css = ["assets/custom.css"]
+
+[project.theme]
+name = "material"
+# Couleurs DECADE-X (indigo et bleu par défaut, modifiables)
+palette = [
+  { media = "(prefers-color-scheme: light)", scheme = "default", primary = "indigo", accent = "blue" },
+  { media = "(prefers-color-scheme: dark)", scheme = "slate", primary = "black", accent = "blue" }
+]
+
+# Ton menu latéral structuré avec la gestion manuelle des versions
+[project.nav]
+"Home" = "index.md"
+"Domain 1" = [
+    {"Standard 1.1" = "domain1/standard1-1.md"},
+    {"Standard 1.2" = "domain1/standard1-2.md"}
+]
+"Domain 2 (v2.0)" = [
+    {"Standard 2.1" = "domain2/v2.0/standard2-1.md"},
+    {"Standard 2.2" = "domain2/v2.0/standard2-2.md"}
+]
+
+# --- ACTIVATION DES EXTENSIONS MARKDOWN ---
+[project.markdown_extensions]
+attr_list = {}  # Obligatoire pour utiliser les classes HTML (comme la grille)
+md_in_html = {} # Permet d'écrire du Markdown à l'intérieur de balises HTML
+abbr = {}       # Active les info-bulles automatiques pour les acronymes
+admonition = {} # Active les blocs d'alerte (warning, info, etc.)
+pymdownx.details = {}
+
 [project.markdown_extensions.pymdownx.snippets]
-# Optionnel mais très recommandé : 
-# Indique à Zensical dans quel dossier chercher tes snippets par défaut
+# Demande à Zensical d'aller chercher les snippets dans le dossier "includes" (à la racine)
 base_path = "includes"
+
 [project.markdown_extensions.pymdownx.superfences]
+# Active les diagrammes Mermaid
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
