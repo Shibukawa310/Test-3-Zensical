@@ -1,7 +1,7 @@
 [project]
 site_name = "Zensical"
 # Remplace par ton vrai lien GitHub Pages
-site_url = "https://Shibukawa310.github.io/Zensical/" 
+site_url = "https://shibukawa310.github.io/Zensical/" 
 extra_css = ["assets/custom.css"]
 
 [project.theme]
