@@ -36,6 +36,7 @@ pymdownx.details = {}
 base_path = "includes"
 # Cette ligne est CRUCIALE pour que le {{ }} fonctionne dans un snippet
 check_paths = true
+auto_append_base_path = true
 process_jinja = true
 
 [project.markdown_extensions.pymdownx.superfences]
